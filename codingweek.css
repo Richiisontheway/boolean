@@ -1,0 +1,104 @@
+body{
+
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+} 
+/* div{
+
+    background-color: rgba(192, 192, 192, 0.5);
+    width: 50%;
+    height: 2600px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+}
+header{
+    padding-top: 7%;
+    padding-left: 37%;
+
+
+   
+} */
+
+body > div{                 /*inizio sfondo semi trasparente*/
+    width: 3000px;
+    margin: auto;
+    background-color: rgba(34, 33, 33, 0.5);
+    height: 2600px;
+    margin-top: 100px;
+    border-radius: 2%;
+    
+}
+
+.logotitle{                /*inizio logo*/
+
+    padding-top: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.titolo{
+    text-align: center;
+    font-size: 110px;
+    color: limegreen;
+}
+
+div > nav{
+    width: 2250px;
+    height: 100px;
+    margin: 1% 10% 1%;
+    background-color: limegreen;
+}
+
+nav > button{
+    font-size: 40px;
+    position: relative;
+    left: 35%;
+    top: 25%;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+}
+
+.capitolo{
+    font-size: 90px;
+    color: white;
+    display: inline-block;
+}
+
+section > p , span{
+    margin-left: 10%;
+    color: white;
+    font-size: 50px;
+}
+
+#decente{
+    height: 100px;
+    width: 1000px;
+    background-color: orange;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+#ottima{
+    height: 100px;
+    width: 1500px;
+    background-color: greenyellow;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+#scarsa{
+    height: 100px;
+    width: 400px;
+    background-color: red;
+    margin-left: 10%;
+    border-radius: 10px;
+}
